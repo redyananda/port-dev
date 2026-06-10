@@ -1,0 +1,33 @@
+.navbar {
+    padding: 20px 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5efe6;
+}
+
+.navbar-brand >img {
+    width: 125px;
+    height: 50px;
+}
+
+.navbar-nav {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.navbar-nav a:hover {
+    color: #c65040; 
+}

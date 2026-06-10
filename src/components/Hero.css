@@ -1,0 +1,47 @@
+body {
+    padding-top: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-img > img {
+    height: 760px;
+    width: auto;
+}
+
+.hero-content {
+    align-content: center;
+}
+
+.hero-name {
+    color: #c65040;
+    transition: color 0.3s;
+}
+
+.hero-name:hover {
+    color: #3e8079;
+}
+
+.cta-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #c65040;
+    color: #f5efe6;
+    padding: 16px 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.cta-btn:hover {
+    background-color: #9e4033;
+    cursor: pointer;
+}

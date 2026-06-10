@@ -1,0 +1,56 @@
+.about {
+    margin-top: 132px;
+}
+
+.about-header {
+    align-items: center;
+}
+
+.about-header > h2 {
+    margin-bottom: 32px;
+
+}
+
+.about-bio {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.about-bio-image > img {
+    height: 300px;
+    width: auto;
+    
+}
+
+.about-bio-content {
+    background-color: #3e8079;
+    padding: 40px 40px;
+    border-radius: 40px;
+    width: 75%;
+    font-size: large;
+    color: white;
+    line-height: 32px;
+    justify-content: center;
+}
+
+.about-skills {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.about-skills-image >img {
+    height: 300px;
+    width: auto;
+}
+
+.about-skills-content {
+    background-color: #d99a4e;
+    padding: 40px 40px;
+    border-radius: 40px;
+    width: 75%;
+    font-size: large;
+    color: white;
+    line-height: 32px;
+    justify-content: center;
+}
