@@ -2,7 +2,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="hero-img">
         <img src="./heroImg.png" alt="hero-img" />
       </div>

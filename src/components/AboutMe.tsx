@@ -2,7 +2,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-header">
         <h2 style={{ fontSize: "80px" }}>About Me</h2>
       </div>
