@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="about" id="about">
       <div className="about-header">
-        <h2 style={{ fontSize: "80px" }}>About Me</h2>
+        <h2 className="about-header-title">About Me</h2>
       </div>
       <div className="about-bio">
         <div className="about-bio-container">
@@ -13,7 +13,7 @@ const AboutMe = () => {
             fast, reliable, and useful. It started with a simple joy, taking an
             idea and turning it into something people can open and use in a
             browser. That feeling has stayed with me ever since. Right now, I'm
-            putting all of that energy into Navia, a learning platfor. I'm
+            putting all of that energy into Navia, a learning platform. I'm
             building to help Indonesian students and young professionals prepare
             for their German and English exams. Building it on my own has let me
             work on every part of the project, from the database behind the

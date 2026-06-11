@@ -1,0 +1,20 @@
+.skills {
+  margin-top: 132px;
+}
+
+.skills-title {
+  display: flex;
+  font-size: 80px;
+  justify-content: center;
+  width: 100%;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skills-badge {
+  border: 1px solid black;
+  
+}

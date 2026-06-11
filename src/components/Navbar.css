@@ -11,9 +11,16 @@
     background-color: #f5efe6;
 }
 
+
 .navbar-brand >img {
     width: 125px;
     height: 50px;
+}
+
+.hamburger {
+    border: none;
+    background-color: transparent;
+    display: none;
 }
 
 .navbar-nav {
@@ -31,3 +38,27 @@
 .navbar-nav a:hover {
     color: #c65040; 
 }
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: none;
+        position: absolute;
+        background-color: #f5efe6;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 24px;
+
+    }
+    .navbar-nav.open{
+        display: flex;
+        flex-direction: column;
+    }
+}   

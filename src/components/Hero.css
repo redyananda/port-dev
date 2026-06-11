@@ -1,47 +1,114 @@
 body {
-    padding-top: 70px;
-    padding-left: 10%;
-    padding-right: 10%;
+  padding-top: 70px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .hero {
-    display: grid;
-    grid-template-columns: 1.2fr 2fr;
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+  scroll-margin-top: 90px;
 }
 
 .hero-img {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-img-mobile {
+  display: none;
 }
 
 .hero-img > img {
-    height: 760px;
-    width: auto;
+  height: 760px;
+  width: auto;
 }
 
 .hero-content {
-    align-content: center;
+  align-content: center;
+}
+
+.hero-content-title {
+  font-size: 80px;
+}
+
+.hero-content-name {
+  font-size: 120px;
+}
+
+.hero-content-subtitle {
+  font-size: 68px;
+}
+
+.hero-content-desc {
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 40px;
 }
 
 .hero-name {
-    color: #c65040;
-    transition: color 0.3s;
+  color: #c65040;
+  transition: color 0.3s;
 }
 
 .hero-name:hover {
-    color: #3e8079;
+  color: #3e8079;
 }
 
 .cta-btn {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    background-color: #c65040;
-    color: #f5efe6;
-    padding: 16px 16px;
-    border-radius: 5px;
-    border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: #c65040;
+  color: #f5efe6;
+  padding: 16px 16px;
+  border-radius: 5px;
+  border: none;
 }
 
 .cta-btn:hover {
-    background-color: #9e4033;
-    cursor: pointer;
+  background-color: #9e4033;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-img-mobile {
+    display: flex;
+  }
+  .hero-img-mobile > img {
+    width: 100%;
+  }
+
+  .hero-content {
+    margin-top: 12px;
+    justify-items: center;
+  }
+
+  .hero-content-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .hero-content-name {
+    font-size: 40px;
+  }
+
+  .hero-content-subtitle {
+    font-size: 28px;
+  }
+
+  .hero-content-desc {
+    font-size: 20px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .cta-btn {
+    display: none;
+  }
 }
