@@ -23,7 +23,7 @@ const Navbar = () => {
           <a href="#about" onClick={() => setIsOpen(false)}>About Me</a>
         </li>
         <li className="nav-link">
-          <a href="" onClick={() => setIsOpen(false)}>Skills</a>
+          <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
         </li>
         <li className="nav-link">
           <a href="" onClick={() => setIsOpen(false)}>Portfolio</a>

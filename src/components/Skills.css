@@ -1,5 +1,6 @@
 .skills {
   margin-top: 132px;
+  scroll-margin-top: 110px;
 }
 
 .skills-title {
@@ -7,14 +8,38 @@
   font-size: 80px;
   justify-content: center;
   width: 100%;
+  margin-bottom: 96px;
 }
 
 .skills-container {
+  margin-bottom: 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 40px;
 }
 
 .skills-badge {
-  border: 1px solid black;
-  
+  width: 200px;
+  height: 200px;
+  padding: 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #dfd9d1;
+}
+.skills-badge >img {
+  width: 112px;
+  height: 112px;
+  margin-bottom: 20px;
+}
+
+.skills-badge > p {
+  font-weight: 700;
+}
+
+.skills-badge:hover {
+  background-color: #e8b9b3;
 }
