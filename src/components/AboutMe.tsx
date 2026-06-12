@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="about" id="about">
       <div className="about-header">
-        <h2 className="about-header-title">// About Me</h2>
+        <h2 className="about-header-title">// my <span style={{ color: "#c65040" }}>Story</span></h2>
       </div>
       <div className="about-bio">
         <div className="about-bio-container">

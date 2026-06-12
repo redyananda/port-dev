@@ -3,7 +3,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className="skills" id="skills">
-      <h2 className="skills-title">my Skills</h2>
+      <h2 className="skills-title">my <span style={{ color: "#c65040" }}>Skills</span></h2>
       <div className="skills-container">
         <div className="skills-badge">
           <img src="./html.png" alt="symbo-html" />

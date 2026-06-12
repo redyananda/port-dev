@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       <div className="portfolio-left-title">
-        <h2>Portfolio</h2>
+        <h2>my <span style={{ color: "#c65040" }}>Work</span></h2>
       </div>
       <div className="portfolio-container">
         <div className="portfolio-content">

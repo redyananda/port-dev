@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 4fr;
   background-color: #f0ebe1;
   border-radius: 40px;
+  font-weight: 700;
 }
 
 .portfolio-left-title > h2 {
