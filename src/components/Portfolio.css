@@ -1,0 +1,79 @@
+.portfolio {
+  margin-top: 120px;
+  padding: 40px 40px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: #f0ebe1;
+  border-radius: 40px;
+}
+
+.portfolio-left-title > h2 {
+  font-size: 64px;
+  position: sticky;
+  top: 90px;
+}
+.portfolio-container {
+  padding: 40px 40px;
+  background-color: #f2ece3;
+  border-radius: 40px;
+
+}
+
+.portfolio-content > img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+.portfolio-tech {
+  margin-top: 12px;
+  display: flex;
+  gap: 20px;
+}
+
+.portfolio-tech p {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 16px;
+    background-color: #dfd9d1;
+}
+
+.portfolio-tech p:hover {
+    background-color: #e8b9b3;
+}
+
+.portfolio-title {
+    margin-top: 12px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.portfolio-desc{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.portfolio-desc-card {
+    padding: 20px 24px;
+    background-color: #dfd9d1;
+    border-radius: 20px;
+}
+
+.portfolio-desc-card>h2{
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.portfolio-desc-card-result {
+    padding: 20px 24px;
+    background-color: #dfd9d1;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.portfolio-desc-card-result>h2{
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 20px;
+}

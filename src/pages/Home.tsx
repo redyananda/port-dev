@@ -1,6 +1,8 @@
+import Experience from "@/components/Experience";
 import AboutMe from "../components/AboutMe";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
       <Hero />
       <AboutMe />
       <Skills />
+      <Portfolio />
+      <Experience />
     </div>
   );
 };
