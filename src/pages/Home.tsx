@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Portfolio />
       <Experience />
       <Testimonials />
+      <Contact />
     </div>
   );
 };

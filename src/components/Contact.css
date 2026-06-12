@@ -1,0 +1,57 @@
+.contact > h2 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input-short {
+  border: 1px solid #eee8df;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.input-short:focus {
+  border-color: #c65040;
+  outline: none;
+}
+
+.input-long {
+    border: 1px solid #eee8df;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.input-long:focus {
+  border-color: #c65040;
+  outline: none;
+}
+
+.contact-container-content p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.contact-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #c65040;
+    border-radius: 12px;
+    color: #f5efe6;
+    
+}
+
+.contact-btn:hover {
+  background-color: #9e4033;
+  cursor: pointer;
+}
