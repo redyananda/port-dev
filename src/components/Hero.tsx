@@ -16,11 +16,13 @@ const Hero = () => {
         </h1>
         <h2 className="hero-content-subtitle">Fullstack Developer</h2>
         <p className="hero-content-desc">
-          A <span style={{color: "#c65040" }}>web developer</span> who loves turning <b>complex ideas</b> into <b>simple</b>,
-          delightful products. <br /> Specialized in performant web apps built with a
-          modern stack.
+          A <span style={{ color: "#c65040" }}>web developer</span> who loves
+          turning <b>complex ideas</b> into <b>simple</b>, delightful products.{" "}
+          <br /> Specialized in performant web apps built with a modern stack.
         </p>
-        <button className="cta-btn">{"< contact me />"}</button>
+        <a href="#contact">
+          <button className="cta-btn">{"< contact me />"}</button>
+        </a>
       </div>
     </div>
   );
