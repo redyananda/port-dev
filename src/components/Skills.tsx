@@ -6,37 +6,37 @@ const Skills = () => {
       <h2 className="skills-title">my <span style={{ color: "#c65040" }}>Skills</span></h2>
       <div className="skills-container">
         <div className="skills-badge">
-          <img src="./html.png" alt="symbo-html" />
+          <img src="./html.webp" alt="symbo-html" />
           <p>HTML</p>
         </div>
         <div className="skills-badge">
-          <img src="./css.png" alt="symbol-css" />
+          <img src="./css.webp" alt="symbol-css" />
           <p>CSS</p>
         </div>
         <div className="skills-badge">
-          <img src="./js.png" alt="symbol-js" />
+          <img src="./js.webp" alt="symbol-js" />
           <p>JavaScript</p>
         </div>
         <div className="skills-badge">
-          <img src="./ts.png" alt="symbol-ts" />
+          <img src="./ts.webp" alt="symbol-ts" />
           <p>TypeScript</p>
         </div>
       </div>
       <div className="skills-container">
         <div className="skills-badge">
-          <img src="./react.png" alt="symbo-react" />
+          <img src="./react.webp" alt="symbo-react" />
           <p>React JS</p>
         </div>
         <div className="skills-badge">
-          <img src="./nodeJs.png" alt="symbol-node-js" />
+          <img src="./nodeJs.webp" alt="symbol-node-js" />
           <p>NODE JS</p>
         </div>
         <div className="skills-badge">
-          <img src="./postgre.png" alt="symbol-postgre" />
+          <img src="./postgre.webp" alt="symbol-postgre" />
           <p>PostgreSQL</p>
         </div>
         <div className="skills-badge">
-          <img src="./tailwind.png" alt="symbol-tailwind" />
+          <img src="./tailwind.webp" alt="symbol-tailwind" />
           <p>Tailwind CSS</p>
         </div>
       </div>

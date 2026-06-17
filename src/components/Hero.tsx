@@ -4,10 +4,10 @@ const Hero = () => {
   return (
     <div className="hero" id="hero">
       <div className="hero-img">
-        <img src="./heroImg.png" alt="hero-img" />
+        <img src="./heroImg.webp" alt="hero-img" />
       </div>
       <div className="hero-img-mobile">
-        <img src="./heroImg_mobile.png" alt="hero-img" />
+        <img src="./heroImg_mobile.webp" alt="hero-img" />
       </div>
       <div className="hero-content">
         <h2 className="hero-content-title">Hola!</h2>

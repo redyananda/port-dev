@@ -21,12 +21,12 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="about-bio-image">
-          <img src="./about-me.png" alt="about-me" />
+          <img src="./about-me.webp" alt="about-me" />
         </div>
       </div>
       <div className="about-skills">
         <div className="about-skills-image">
-          <img src="./about-skills.png" alt="about-skills" />
+          <img src="./about-skills.webp" alt="about-skills" />
         </div>
         <div className="about-skills-container">
           <p className="about-skills-content">

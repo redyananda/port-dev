@@ -8,7 +8,7 @@ const Portfolio = () => {
       </div>
       <div className="portfolio-container">
         <div className="portfolio-content">
-          <img src="./portfolio_1.png" alt="pict-travilla" />
+          <img src="./portfolio_1.webp" alt="pict-travilla" />
         </div>
         <div className="portfolio-tech">
           <p>TypeScript</p>

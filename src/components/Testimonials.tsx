@@ -24,7 +24,7 @@ const Testimonials = () => {
                 <CardContent className="testimonial-card-content">
                   <img
                     className="testimonial-avatar"
-                    src="./1.png"
+                    src="./1.webp"
                     alt="testi-sara"
                   />
                   <h3 className="testimonial-name">Sara Warner</h3>
@@ -42,7 +42,7 @@ const Testimonials = () => {
                 <CardContent className="testimonial-card-content">
                   <img
                     className="testimonial-avatar"
-                    src="./2.png"
+                    src="./2.webp"
                     alt="testi-cristopher"
                   />
                   <h3 className="testimonial-name">Cristopher W</h3>
@@ -60,7 +60,7 @@ const Testimonials = () => {
                 <CardContent className="testimonial-card-content">
                   <img
                     className="testimonial-avatar"
-                    src="./3.png"
+                    src="./3.webp"
                     alt="testi-peter"
                   />
                   <h3 className="testimonial-name">Peter Andres</h3>
@@ -78,7 +78,7 @@ const Testimonials = () => {
                 <CardContent className="testimonial-card-content">
                   <img
                     className="testimonial-avatar"
-                    src="./4.png"
+                    src="./4.webp"
                     alt="testi-kim"
                   />
                   <h3 className="testimonial-name">Kim Yvonne</h3>
@@ -96,7 +96,7 @@ const Testimonials = () => {
                 <CardContent className="testimonial-card-content">
                   <img
                     className="testimonial-avatar"
-                    src="./5.png"
+                    src="./5.webp"
                     alt="testi-johanna"
                   />
                   <h3 className="testimonial-name">Johanna Lang</h3>
@@ -114,7 +114,7 @@ const Testimonials = () => {
                 <CardContent className="testimonial-card-content">
                   <img
                     className="testimonial-avatar"
-                    src="./6.png"
+                    src="./6.webp"
                     alt="testi-lareine"
                   />
                   <h3 className="testimonial-name">Lareine Teto</h3>
@@ -132,7 +132,7 @@ const Testimonials = () => {
                 <CardContent className="testimonial-card-content">
                   <img
                     className="testimonial-avatar"
-                    src="./7.png"
+                    src="./7.webp"
                     alt="testi-sofia"
                   />
                   <h3 className="testimonial-name">Sofia Jannah</h3>

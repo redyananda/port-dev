@@ -8,7 +8,7 @@ const Contact = () => {
       </h2>
       <div className="contact-container">
         <div className="contact-img">
-          <img src="./contact-img.png" alt="" />
+          <img src="./contact-img.webp" alt="" />
         </div>
         <div>
           <div className="contact-container-content">

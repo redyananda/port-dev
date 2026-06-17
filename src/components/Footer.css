@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 80px;
+  background-color: #f5efe6;
+  color: #1A1A1A;
+  
+}
+
+.footer-left {
+  font-size: 14px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-nav a img {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.2s ease;
+}
+
+.footer-nav a:hover img {
+  opacity: 0.6;
+}
+
+@media (max-width: 560px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    height: auto;
+    padding: 20px 6%;
+    text-align: center;
+  }
+}
