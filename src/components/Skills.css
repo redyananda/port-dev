@@ -45,3 +45,31 @@
 .skills-badge:hover {
   background-color: #e8b9b3;
 }
+
+@media (max-width: 768px) {
+  .skills {
+    margin-top: 80px;
+  }
+
+  .skills-title {
+    font-size: 44px;
+    margin-bottom: 48px;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .skills-badge {
+    width: 100%;
+    height: auto;
+    padding: 24px 24px;
+  }
+
+  .skills-badge > img {
+    width: 80px;
+    height: 80px;
+  }
+}

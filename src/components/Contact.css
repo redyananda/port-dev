@@ -55,3 +55,16 @@
   background-color: #9e4033;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .contact > h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 24px;
+  }
+}

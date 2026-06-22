@@ -82,6 +82,14 @@
     }
 
     .testimonial-container {
-        padding: 0 36px;
+        padding: 0 8px;
+    }
+
+    .testimonial-card {
+        margin: 0;
+    }
+
+    .testimonial-card-content {
+        padding: 28px 20px;
     }
 }

@@ -78,3 +78,62 @@
     font-weight: 500;
     font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 24px;
+  }
+
+  .portfolio-left-title > h2 {
+    font-size: 36px;
+    position: static;
+    margin: 0;
+  }
+
+  .portfolio-container {
+    padding: 16px;
+    border-radius: 24px;
+  }
+
+  .portfolio-tech {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .portfolio-title {
+    font-size: 22px;
+  }
+
+  .portfolio-desc {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .portfolio-desc-card {
+    padding: 16px;
+  }
+
+  .portfolio-desc-card-result {
+    padding: 16px;
+  }
+
+  .portfolio-desc-card p {
+    font-weight: 400;
+  }
+
+  .portfolio-desc-card-result p {
+    font-weight: 400;
+  }
+
+  .portfolio-desc-card > h2 {
+    font-weight: 500;
+  }
+
+  .portfolio-desc-card-result > h2 {
+    font-weight: 500;
+  }
+}

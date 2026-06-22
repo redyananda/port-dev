@@ -69,3 +69,51 @@
     font-size: 20px;
 }
 
+@media (max-width: 768px) {
+  .experience-title {
+    font-size: 36px;
+    margin-top: 60px;
+  }
+
+  .experience-container {
+    width: 90%;
+    margin: 40px auto 40px;
+  }
+
+  .experience-container::before {
+    left: 7px;
+  }
+
+  .experience-timeline {
+    grid-template-columns: 14px 1fr;
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .experience-date {
+    grid-column: 2;
+    text-align: left;
+    padding-right: 0;
+    font-size: 16px;
+  }
+
+  .experience-dot {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 7px 0 0;
+  }
+
+  .experience-content {
+    grid-column: 2;
+    padding-left: 0;
+  }
+
+  .experience-content > h2 {
+    font-size: 20px;
+  }
+
+  .experience-content > h3 {
+    font-size: 16px;
+  }
+}
+

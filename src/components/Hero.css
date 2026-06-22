@@ -71,12 +71,18 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .hero-img {
     display: none;
   }
   .hero {
     display: flex;
     flex-direction: column;
+    min-height: auto;
   }
   .hero-img-mobile {
     display: flex;

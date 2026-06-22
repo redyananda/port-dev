@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        padding: 20px 5%;
+    }
+
     .hamburger {
         display: block;
     }
