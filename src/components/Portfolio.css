@@ -65,6 +65,11 @@
     font-weight: 500;
     font-size: 20px;
 }
+
+.portfolio-desc-card>p {
+    font-weight: 400;
+}
+
 .portfolio-desc-card-result {
     padding: 20px 24px;
     background-color: #dfd9d1;
@@ -77,6 +82,10 @@
     margin-bottom: 12px;
     font-weight: 500;
     font-size: 20px;
+}
+
+.portfolio-desc-card-result>p {
+    font-weight: 400;
 }
 
 @media (max-width: 768px) {
