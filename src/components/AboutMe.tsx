@@ -31,7 +31,7 @@ const AboutMe = () => {
         <div className="about-skills-container">
           <p className="about-skills-content">
             I work across the full stack, mostly with JavaScript and TypeScript
-            — React, Astro, and Tailwind on the frontend, and Node.js, Prisma,
+            - React, Astro, and Tailwind on the frontend, and Node.js, Prisma,
             and PostgreSQL on the backend, plus Python, Git, and deploying on
             platforms like Railway and Cloudflare. Beyond the tools, I care
             about the small details, since that's usually what separates good

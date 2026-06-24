@@ -51,15 +51,15 @@ const Portfolio = () => {
               Delivered a fully working MVP where users can sign up, complete a
               guided wizard, and instantly receive an auto-generated itinerary
               saved to their account. The itinerary generator handles the tricky
-              timing logic on its own — correctly adjusting each day based on
-              arrival and departure times — which removes the tedious manual
+              timing logic on its own - correctly adjusting each day based on
+              arrival and departure times - which removes the tedious manual
               planning that inspired the project in the first place. The
               architecture turned out to be highly scalable: adding a new city
               is as simple as dropping in a single JSON file, with no code
               changes required. Because the entire stack is type-safe from the
               database schema all the way to the UI, the app stays reliable and
               easy to extend as new features are added. Building Travilla also
-              deepened my understanding of modern full-stack patterns —
+              deepened my understanding of modern full-stack patterns -
               especially how to balance Server Components and API Routes in the
               Next.js App Router, and how to design a clean relational schema
               that scales gracefully.
